@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import SplitText from '../components/SplitText.jsx';
 import Reveal from '../components/Reveal.jsx';
 
-const EMAIL = 'kitonekd@gmail.com';
+const EMAIL = '64e203081eac82a5b907fd1e6299dcd1';
 const ENDPOINT = `https://formsubmit.co/ajax/${EMAIL}`;
 const clean = (text) => text.replace(/[<>]/g, '').trim();
 
